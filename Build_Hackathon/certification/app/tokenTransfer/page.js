@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 "use client";
 import { CircleX } from "lucide-react";
 import { useState } from "react";
@@ -144,7 +145,7 @@ const page = () => {
               Soulbound certificates are digital credentials tied permanently to
               a person’s identity, embodying a key concept from Soulbound Tokens
               (SBTs). SBTs are a type of blockchain-based token that cannot be
-              transferred or traded, designed to represent an individual's
+              transferred or traded, designed to represent an individual&apos;s
               accomplishments, affiliations, or attributes securely and
               transparently. Much like a resume or diploma, SBTs serve as
               immutable proof of credentials, ensuring authenticity and reducing
