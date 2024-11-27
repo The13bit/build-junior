@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "SoulBpundToken",
+  title: "SoulBoundToken",
   description: "Created by AnasF",
 };
 
