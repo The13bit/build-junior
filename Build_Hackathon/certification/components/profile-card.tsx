@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Card, CardContent } from "@/components/ui/card"
-import ProfileCardSkeleton from './profile-card-skeleton'
+
 
 interface ProfileCardProps {
   imageUrl: string

@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-const page = () => {
+const Page = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [address, setAddress] = useState("");
   const [valid, setValid] = useState(false);
@@ -99,4 +99,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

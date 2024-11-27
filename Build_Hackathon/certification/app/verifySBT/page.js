@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import {} from "lucide-react";
 import ProfileCardSkeleton from "@/components/profile-card-skeleton";
 import ProfileCard from "@/components/profile-card";
-const page = () => {
+const Page = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [address, setAddress] = useState("");
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -130,4 +130,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

@@ -3,7 +3,7 @@
 import { CircleX } from "lucide-react";
 import { useState } from "react";
 import Modal from "react-modal";
-const page = () => {
+const Page = () => {
   const [sender, setSender] = useState("");
   const [receiver, setReceiver] = useState("");
   const [tokenID, setTokenID] = useState("");
@@ -49,7 +49,7 @@ const page = () => {
       });
     });
   };
-  Modal.setAppElement(document.getElementById('root'));
+  //Modal.setAppElement(document.getElementById('root'));
   return (
     <div className="tst absolute w-full h-full bg-gradient-to-br from-blue-50 to-indigo-50 ">
       <div className="max-w-3xl mx-auto">
@@ -162,4 +162,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
